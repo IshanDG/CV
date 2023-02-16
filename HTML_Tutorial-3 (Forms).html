@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Ishan</title>
+</head>
+<center>
+
+    <body>
+        <h2>CONTACT ME</h2>
+        <table cellpadding="6">
+            <tr>
+                <td><strong>My Address : </strong></td>
+                <td>15Q/1A, K.P. Roy Lane, Kolkata - 700031</td>
+            </tr>
+            <tr>
+                <td><strong>My Phone : </strong></td>
+                <td>9432394957/ 9831541327/ 9831541381</td>
+            </tr>
+            <tr>
+                <td><strong>My Email : </strong></td>
+                <td>ishandasgupta98666@gmail.com</td>
+            </tr>
+        </table>
+        <strong>
+            <p>Mail Me Your Details :
+        </strong></p>
+        <form action="mailto:ishandasgupta98666@gmail.com" target="_blank" method="post"  enctype="text/plain"> <!--FORM, LABEL and INPUT-->
+            <table cellpadding="6"> <!--YOU CANT GIVE TEXTAREA IN TABLE-->
+                <tr>
+                    <td><label for="name">Name : </label></td>
+                    <td><input type="text" id="name" name="My Name "></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email : </label></td>
+                    <td><input type="email" id="email" name="My Email "></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth : </label></td>
+                    <td><input type="date" id="dob" name="My Date of Birth "></td>
+                </tr>
+                <tr>
+                    <td><label for="status">Are you Single : </label></td>
+                    <td><input type="checkbox" id="status" value="Yes"  name="Single? " checked></td>
+                </tr>
+                <tr>
+                    <td><label for="sex">Sex : </label></td>
+                    <td>Male<input type="radio" value="Male" name="My Sex " id="sex" checked> Female<input type="radio" value="Female"
+                            name="My Sex : " id="sex"> Other<input type="radio" name="My Sex : " id="sex" value="Other"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone">Phone Number : </label></td>
+                    <td><input type="number" id="phone" name="My Phone Number "></td>
+                </tr>
+                <tr>
+                    <td><label for="pin">ATM PIN : </label></td>
+                    <td><input type="password" id="pin" name="My ATM PIN "></td>
+                </tr>
+                <tr>
+                    <td><label for="caste">Caste : </label></td>
+                    <td><select name="My Caste " id="caste">
+                            <option value="General" selected>General</option>
+                            <option value="SC">SC</option>
+                            <option value="ST">ST</option>
+                            <option value="OBC">OBC</option>
+                        </select></td>
+                </tr>
+            </table><br>
+            <div>
+                <label for="opinion">Your Opinion About Me </label><br>
+                <textarea name="My Opinion about You " id="opinion" cols="38" rows="7"></textarea>
+            </div><br>
+            <div>
+                <input type="submit">&nbsp;
+                <input type="reset">
+            </div>
+        </form>
+    </body>
+</center>
+
+</html>
